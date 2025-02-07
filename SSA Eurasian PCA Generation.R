@@ -3,7 +3,7 @@ library(ggplot2)
 library(ggrepel)  # Loaded ggrepel for better label positioning
 
 # Loading the PCA coordinates from a .txt file via a relative path
-file_path <- "PCA_SSA-Admixed-Eurasian.txt"  # Ensure the file is in the working directory
+file_path <- "PCA_Global.txt"  # Ensure the file is in the working directory
 df <- read.csv(file_path, header = FALSE, sep = ",")
 
 # Extracting the sample names and coordinates
