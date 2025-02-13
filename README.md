@@ -63,7 +63,7 @@ Make sure you have R installed and the required packages. Download the datasets 
 ## Results
 
 📖For a full breakdown of this project, check out the detailed write-up on my blog:
-🔗 []()
+🔗 [Iberomaurusians descend from a unique Sub-Saharan African lineage: Ancestral North African (ANA)](https://anthromadness.blogspot.com/2025/02/iberomaurusians-descend-from-unique-sub.html)
 
 
 ## Citation & References
