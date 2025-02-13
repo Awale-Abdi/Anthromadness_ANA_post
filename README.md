@@ -77,6 +77,5 @@ This project references peer-reviewed and preprint studies on ancient DNA:
 ## Connect with me if you have any questions
 
 📌 Email: Awaleiabdi@outlook.com
-📌 LinkedIn: [Awale Abdi](www.linkedin.com/in/awale-abdi)
-📌 GitHub: [Awale-Abdi](https://github.com/Awale-Abdi)
+📌 LinkedIn: [Awale Abdi]([www.linkedin.com/in/awale-abdi](https://www.linkedin.com/in/awale-abdi/))
 
