@@ -47,7 +47,7 @@ The analyses rely on **Eurogenes Global25 PCA coordinates**:
 - 6_PCA_Dendro.txt → Needed for the Dendrogram
 - 7_MENA_ANA_proportions.csv → Needed for generating the MENA ANA admixture chart
   
-You must have all these files present in your working directory for the R scripts to run without errors. They are loaded via relative paths, so as long as they are in the correct location, everything should work fine.
+You must have all these files present in your working directory for the R scripts to run without errors. They are loaded via relative paths, so as long as they are in your working directory, everything should work fine.
 
 ### **3. Run the R Scripts**
 Make sure you have R installed and the required packages. Download the datasets into your working directory then open RStudio and execute the scripts:
