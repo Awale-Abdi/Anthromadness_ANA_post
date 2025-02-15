@@ -38,9 +38,9 @@ cd Anthromadness_ANA_post
 ```
 ### 2. Have the Datasets present in your working directory
 
-The analyses rely on **Eurogenes Global25 PCA coordinates** and custom data processing:
+The analyses rely on **Eurogenes Global25 PCA coordinates**:
 
-- 1_First_PCA.txt → Needed for generatingthe first global PCA I shared on my blog
+- 1_First_PCA.txt → Needed for generating the first global PCA I shared on my blog
 - 2_PCA_Bar_Chart.txt → Needed for generating the SSA-to-Eurasian ancestry proportion bar chart
 - 3_PCA_Global_Simulation.txt → Needed for generating the global PCAs containing the ANA simulations
 - 4_PCA_ANA_Simulation.txt → Needed for generating my ANA simulations
@@ -67,7 +67,7 @@ Make sure you have R installed and the required packages. Download the datasets 
 
 
 ## Citation & References
-This project references peer-reviewed and preprint studies on ancient DNA:
+This project references peer-reviewed and preprint studies on ancient and modern genomes:
 
 - Loosdrecht et al. (2018): [Science](https://www.science.org/doi/10.1126/science.aar8380)
 - Lazaridis et al. (2018): [bioRxiv](https://www.biorxiv.org/content/10.1101/423079v1)
