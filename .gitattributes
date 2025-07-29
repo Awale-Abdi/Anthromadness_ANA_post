@@ -1,0 +1,3 @@
+"R Scripts"/*.R linguist-language=R
+*.html linguist-detectable=false
+*.png linguist-detectable=false
