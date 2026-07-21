@@ -1,4 +1,4 @@
-# Anthromadness - ANA Post
+<h1 align="center">Anthromadness - Iberomaurusians descend from a unique Sub-Saharan African lineage: Ancestral North African (ANA)</h1>
 
 ## Overview
 
@@ -14,7 +14,7 @@ This project applies data analytics, statistics, and visualization techniques to
 
 ## Technical Implementation
 
-This project was developed using **R** with the following packages:
+The project was developed using **R** with the following packages:
 
 ```r
 library(ggplot2)       # For PCA and bar chart visualization
@@ -74,7 +74,7 @@ This project references peer-reviewed and preprint studies on ancient and modern
 - Lipson et al. (2020): [Nature](https://www.nature.com/articles/s41586-020-1929-1)
 - Pickrell et al. (2014): [PNAS](https://www.pnas.org/doi/full/10.1073/pnas.1313787111)
 
-## Connect with me if you have any questions
+## Contact with me if you have any questions
 
 📌 Email: Awaleiabdi@outlook.com
 📌 LinkedIn: [Awale Abdi]([www.linkedin.com/in/awale-abdi](https://www.linkedin.com/in/awale-abdi/))
