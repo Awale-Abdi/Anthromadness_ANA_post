@@ -1,7 +1,5 @@
 <h1 align="center">Anthromadness - Iberomaurusians descend from a unique Sub-Saharan African lineage: Ancestral North African (ANA)</h1>
 
-## Overview
-
 This project applies data analytics, statistics, and visualization techniques to anthropological and population genetics research. Specifically, it explores the proposed **Ancestral North African (ANA)** genetic component.
 
 ## Key Goals of This Project
