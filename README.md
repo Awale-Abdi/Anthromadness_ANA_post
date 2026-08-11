@@ -1,113 +1,124 @@
-<h1 align="center">Population Genetics & Anthropological Data Analysis | Modeling Ancestral North African Ancestry with R</h1>
+<h1 align="center">Multivariate Analysis & Computational Modeling with R | Population Genetics Case Study</h1>
 
-This project showcases an **end-to-end anthropological data analysis workflow** developed in R using population-level principal-component coordinates. I designed the analysis to explore the proposed **Ancestral North African (ANA)** lineage and its potential relationship to Iberomaurusian, Natufian, Sub-Saharan African, and West Eurasian populations.
+This project showcases an **end-to-end computational analysis workflow** developed in **R** using population-level principal-component coordinates. I developed it to demonstrate multivariate analysis, distance-based modeling, simulation, clustering, interactive visualization, and interdisciplinary research using complex scientific data.
 
-The project combines **principal component analysis, coordinate-based ancestry estimation, linear algebra, simulation, hierarchical clustering, and interactive visualization**. Using Eurogenes Global25 coordinates and published population-genetics findings as the analytical foundation, I generated multiple PCA plots, ancestry-proportion charts, simulated ANA coordinates, and a dendrogram to investigate how a hypothetical ANA-related population might cluster within broader African and Eurasian genetic variation.
+Although the project uses **population genetics and prehistoric North Africa** as its case study, the analytical techniques demonstrated, including **multivariate analysis, linear algebra, simulation, distance-based modeling, hierarchical clustering, and data visualization**, are broadly transferable across Data Science, bioinformatics, healthcare, scientific research, and other data-intensive fields.
 
-Although the case study focuses on prehistoric North Africa, the analytical capabilities demonstrated here such as multivariate analysis, distance-based modeling, simulation, clustering, data visualization, and technical research communication are transferable to genetics, anthropology, public health, biological research, and other data-intensive scientific fields.
+Using **R**, Eurogenes Global25 coordinates, and published population-genetics research, I developed multiple PCA visualizations, coordinate-based affinity models, simulated population coordinates, hierarchical clustering models, and interactive comparative visualizations.
 
-The repository directly supports a detailed article published on my anthropology blog, **Anthromadness**, where I interpret the results alongside peer-reviewed and preprint research. The analysis should be understood as an **independent exploratory reconstruction**, not as a formal replacement for methods such as qpAdm, qpGraph, formal statistics, or newly sampled ancient DNA. :contentReference[oaicite:0]{index=0}
+The resulting analysis supports a detailed article published on my anthropology blog, [**Anthromadness**](https://anthromadness.blogspot.com/), where the computational findings are integrated with published genetic and anthropological research. The project is an **exploratory computational reconstruction** rather than a substitute for formal population-genetic methods or newly sampled ancient DNA.
 
 ## 📖 Featured Research Article
 
-The complete analytical interpretation, historical context, visualizations, methodological reasoning, and literature discussion are presented in the accompanying Anthromadness article:
+The complete analytical interpretation, historical context, visualizations, methodology, and literature discussion are presented in the accompanying Anthromadness article:
 
 ### [Iberomaurusians Descend from a Unique Sub-Saharan African Lineage: Ancestral North African (ANA)](https://anthromadness.blogspot.com/2025/02/iberomaurusians-descend-from-unique-sub.html)
 
 The article examines:
 
 - Published ancestry models for Iberomaurusians
-- The proposed relationship between Iberomaurusians and Natufians
-- Global PCA positioning between African and Eurasian populations
-- Coordinate-based estimates of Sub-Saharan and Eurasian affinity
-- Reconstruction of a hypothetical ANA population
+- Relationships between Iberomaurusians and Natufians
+- African and Eurasian population structure
+- Coordinate-based ancestry affinities
+- Reconstruction of a hypothetical Ancestral North African population
 - Potential ANA-related ancestry across North Africa and the Middle East
-- Limitations of reference-population selection
-- Questions that future ancient-DNA research may resolve
+- Reference-population effects
+- Questions for future ancient-DNA research
 
-## 🎯 Analytical Goals
+## 🎯 Project Goals
 
-The primary goals of this project were to:
+The project applies computational and multivariate techniques to investigate population structure and evaluate a hypothetical ancestral population model.
 
-- Visualize the global genetic positioning of Iberomaurusians
-- Compare Iberomaurusian clustering with African and Eurasian reference groups
-- Estimate relative Sub-Saharan and Eurasian affinities using PCA-coordinate distances
-- Simulate a hypothetical Ancestral North African population
-- Evaluate the simulated population through global PCA projections
-- Construct a dendrogram using hierarchical clustering
-- Visualize modeled ANA-related ancestry across Middle Eastern and North African populations
-- Translate technical analysis into an accessible long-form research article
+The primary goals were to:
 
-## 🏗️ Analytical Workflow
+- Analyze population structure using principal-component coordinates.
+- Compare African and Eurasian population affinities.
+- Develop coordinate-based ancestry estimates.
+- Simulate a hypothetical Ancestral North African population.
+- Evaluate simulated coordinates through PCA and clustering.
+- Model ancestry patterns across comparative populations.
+- Produce interactive and publication-oriented visualizations.
+- Integrate quantitative results with interdisciplinary scientific research.
+
+
+## 🏗️ Solution Architecture
+
+### Workflow
 
 ```text
 Global25 PCA Coordinates
         ↓
-Data Preparation in R
+Data Preparation
         ↓
-Population Selection and Grouping
+Population Selection & Grouping
         ↓
-Principal Component Visualization
+Multivariate Analysis
         ↓
-Distance-Based Ancestry Estimation
+Distance-Based Modeling
         ↓
-Linear-Algebraic ANA Simulation
+Linear-Algebraic Simulation
         ↓
-Simulation Validation through PCA Positioning
+PCA Validation
         ↓
-Hierarchical Clustering and Dendrogram Generation
+Hierarchical Clustering
         ↓
-Interactive Ancestry-Proportion Visualizations
+Interactive Visualization
         ↓
-Anthropological Interpretation and Blog Publication
+Statistical Interpretation
+        ↓
+Interdisciplinary Research Synthesis
+        ↓
+Scientific Writing & Publication
 ```
 
-## 🧬 Research Context
+### Data
 
-Ancient-DNA studies have modeled Iberomaurusians from Taforalt as deriving ancestry from both a West Eurasian-related source and a deeply divergent African-related source.
+- **Primary Dataset:** Eurogenes Global25 Coordinates
+- **Supporting Data:** Published ancient-DNA and population-genetics research
+- **Data Type:** Population-level principal-component coordinates
+- **Study Regions:** Africa, North Africa, the Middle East, and Eurasia
+- **Research Focus:** Population structure, genetic affinity, simulation, and demographic history
 
-Published models have differed in their exact proportions and inferred direction of ancestry flow. Some analyses modeled Iberomaurusians using Natufian-related and Sub-Saharan African-related ancestry, while later work proposed that an Iberomaurusian-related population may instead have contributed ancestry to Natufians.
+### Data Preparation
 
-This project explores whether a hypothetical ANA-related population can be reconstructed geometrically from PCA coordinates and whether that simulated population occupies a plausible position relative to Iberomaurusians, Anatolian hunter-gatherers, Natufians, and selected African populations.
+Prepared and structured population-level coordinate data by:
 
-The resulting simulation is an **analytical approximation based on PCA geometry**. It does not establish the genome, exact ancestry composition, geographic origin, or historical reality of an unsampled population.
+- Selecting relevant ancient and modern populations.
+- Filtering population reference groups.
+- Organizing coordinate datasets for comparative analysis.
+- Calculating population-level coordinate averages.
+- Reshaping data for modeling and visualization.
+- Preparing reproducible analytical inputs across multiple R workflows.
 
-## 📊 Analytical Methods
+### Multivariate Analysis
 
-### Principal Component Analysis Visualization
+Used precomputed **Eurogenes Global25 PCA coordinates** to examine:
 
-Generated PCA plots to examine:
+- African-Eurasian population structure.
+- Iberomaurusian positioning.
+- Natufian and Anatolian hunter-gatherer relationships.
+- Simulated ANA positioning.
+- Population movement across major principal components.
 
-- African–Eurasian population structure
-- Iberomaurusian positioning
-- Natufian and Anatolian hunter-gatherer relationships
-- The location of simulated ANA coordinates
-- Population movement along major principal components
+The analysis uses Global25 coordinate space rather than calculating principal components directly from raw genomic data.
 
-The analyses use precomputed **Eurogenes Global25 PCA coordinates** rather than calculating principal components directly from raw genomic data.
+### Distance-Based Modeling
 
-### Distance-Based Ancestry Estimation
+Estimated relative population affinities by comparing coordinates with selected African and Eurasian reference clusters.
 
-Estimated relative Sub-Saharan and Eurasian affinities by comparing population coordinates with two reference clusters:
+The workflow incorporated:
 
-**Sub-Saharan reference cluster**
+- Population-coordinate averaging.
+- Euclidean-distance calculations.
+- Comparative reference clusters.
+- Proportional affinity estimation.
+- Cross-population comparisons.
 
-- Mota
-- Gumuz
-- Mbuti
-
-**Eurasian reference cluster**
-
-- Western Hunter-Gatherers
-- Anatolian Hunter-Gatherers
-
-Mean PCA coordinates and Euclidean distances were used to generate proportional estimates of relative proximity to each cluster.
-
-These values should be interpreted as **coordinate-based affinity estimates**, not as formal admixture proportions.
+These outputs represent **coordinate-based affinity estimates**, not formal admixture proportions.
 
 ### ANA Simulation
 
-A hypothetical ANA coordinate set was inferred using linear algebra and the observed displacement of Iberomaurusians from an Anatolian hunter-gatherer-related reference.
+Developed a linear-algebraic simulation to infer hypothetical ANA coordinates from the observed displacement of Iberomaurusians relative to an Anatolian hunter-gatherer-related reference.
 
 The conceptual relationship was:
 
@@ -115,161 +126,185 @@ The conceptual relationship was:
 ANA = Iberomaurusian + λ(Iberomaurusian − AHG)
 ```
 
-The scaling factor was used to project a hypothetical ancestral population along the same multivariate direction.
+The scaling factor projects a hypothetical ancestral population along the same multivariate direction.
 
-A separate Natufian-related simulation was also generated to compare the exploratory reconstruction with earlier published ancestry models.
+A separate Natufian-related simulation was also generated to compare the reconstruction with previously published ancestry models.
 
 ### Hierarchical Clustering
 
-A dendrogram was generated using:
+Applied hierarchical clustering using:
 
-- Euclidean distance
-- Hierarchical clustering
-- Population-level PCA coordinates
-- Dendrogram visualization in R
+- Euclidean distance.
+- Population-level PCA coordinates.
+- Hierarchical clustering algorithms.
+- Dendrogram visualization.
 
-This provided an additional way to inspect similarity patterns beyond two-dimensional PCA projections.
+This provided an additional method for examining population similarity beyond two-dimensional PCA projections.
 
-### Interactive Ancestry Visualizations
+### Interactive Visualization
 
-Interactive bar charts were developed with Plotly to display:
+Developed interactive and publication-oriented visualizations using **ggplot2**, **Plotly**, and supporting R packages.
 
-- Relative Sub-Saharan and Eurasian affinities
-- Modeled ANA-related ancestry
-- Comparative ancestry proportions across populations
-- Middle Eastern and North African population patterns
+Outputs included:
 
-## 🔍 Principal Analytical Observations
+- PCA scatter plots.
+- Comparative ancestry charts.
+- Interactive affinity visualizations.
+- Simulated population projections.
+- Hierarchical dendrograms.
+- MENA ancestry-proportion charts.
 
-### Iberomaurusian PCA Positioning
+### Research Interpretation
 
-Within the selected Global25 coordinate framework, Iberomaurusians occupy an intermediate position between the chosen African and Eurasian reference populations.
+Integrated computational outputs with published research in:
 
-Their positioning appears broadly compatible with substantial ancestry related to both sides of that comparison, although PCA placement alone cannot provide definitive ancestry percentages.
+- Population genetics
+- Ancient DNA
+- Archaeology
+- Biological anthropology
 
-### Similarity to Published Estimates
+This interdisciplinary synthesis allowed quantitative results to be evaluated within a broader scientific and historical framework.
 
-The coordinate-distance procedure produced estimates that broadly resembled previously published ancestry estimates for some populations.
+## 📊 Analytical Insights
 
-This convergence is analytically interesting, but it should not be treated as proof that PCA distances are equivalent to formal admixture modeling.
+### Iberomaurusian Positioning
+
+- Iberomaurusians occupied an intermediate position between the selected African and Eurasian reference populations within the Global25 framework.
+- Their positioning was broadly compatible with substantial affinity toward both sides of the comparison.
+- PCA positioning alone cannot establish definitive ancestry proportions.
+
+### Comparison with Published Estimates
+
+- Coordinate-distance estimates broadly resembled previously published ancestry estimates for some populations.
+- This convergence suggests potential analytical value in coordinate-based exploratory modeling.
+- PCA distance should not, however, be interpreted as equivalent to formal admixture analysis.
 
 ### Simulated ANA Positioning
 
-The simulated ANA coordinates cluster on the African side of the selected global PCA while displaying a directional relationship toward Eurasian populations.
+- Simulated ANA coordinates clustered on the African side of the selected global PCA.
+- The simulation also displayed directional relationships toward Eurasian populations.
+- Within the assumptions of the model, this was compatible with a deeply divergent African-related population positioned near lineages related to later non-African groups.
 
-Within the assumptions of the model, this is consistent with a population that may have diverged near lineages ancestral or related to later non-African groups without necessarily participating in the full Eurasian population bottleneck.
+### Population Relationships
 
-### Iberomaurusian and Natufian Relationships
-
-The exploratory simulations suggest a possible model in which Iberomaurusians and Natufians represent differing combinations of:
-
-- An Anatolian hunter-gatherer-related population
-- A deeply divergent African-related population
-
-This resembles aspects of previously proposed models, but the PCA-based reconstruction cannot determine the true direction, timing, or exact proportions of ancestry exchange.
+- Exploratory simulations produced a model in which Iberomaurusians and Natufians could represent differing combinations of Anatolian hunter-gatherer-related and deeply divergent African-related ancestry.
+- The results resembled aspects of previously proposed demographic models.
+- The analysis cannot determine the true direction, timing, or exact proportions of historical ancestry exchange.
 
 ### Reference-Population Effects
 
-The results illustrate how ancestry estimates can change depending on the populations chosen as references.
+- Estimated ancestry patterns changed depending on the populations selected as analytical references.
+- Genetically distant reference populations can distort or misattribute deeply divergent ancestry.
+- Reference selection therefore represents a major consideration when interpreting comparative population models.
 
-A deeply divergent ancestry component may be underestimated or misattributed when available reference populations are genetically distant from the true ancestral source.
+## ⚠️ Project Limitations
 
-## ⚠️ Methodological Limitations
+- Global25 coordinates are reduced-dimensional summaries rather than raw genotype data.
+- PCA distance is not equivalent to genetic drift or formal admixture proportions.
+- The simulated ANA population is mathematically inferred rather than archaeogenetically sampled.
+- Results depend heavily on reference-population selection.
+- Two-dimensional PCA plots cannot represent all variation across 25 principal components.
+- Euclidean similarity does not establish direct ancestry.
+- Historical directionality cannot be inferred from clustering alone.
+- Formal validation would require ancient DNA and methods such as qpAdm, qpGraph, D-statistics, or related population-genetic tests.
 
-This project is an exploratory analytical exercise and has several important limitations:
+The outputs should therefore be interpreted as **hypothesis-generating computational models** rather than definitive reconstructions of population history.
 
-- Global25 coordinates are reduced-dimensional summaries, not raw genotype data
-- PCA distance is not equivalent to genetic drift or formal admixture proportion
-- The simulated ANA population is mathematically inferred rather than archaeogenetically sampled
-- The analysis depends heavily on reference-population selection
-- Two-dimensional plots cannot capture all variation across 25 principal components
-- Euclidean similarity does not establish direct ancestry
-- Historical directionality cannot be inferred from clustering alone
-- Formal validation would require ancient DNA and methods such as qpAdm, qpGraph, D-statistics, or related population-genetic tests
+## 📈 Analytical Recommendations
 
-The outputs are therefore best interpreted as **hypothesis-generating visual and quantitative models**.
+Based on the analysis:
+
+- Validate exploratory coordinate-based models using formal population-genetic methods where appropriate.
+- Test alternative reference populations to evaluate model sensitivity.
+- Incorporate newly published ancient-DNA samples as they become available.
+- Compare PCA-based simulations with independent genetic and archaeological evidence.
+- Use multiple complementary analytical methods rather than relying on a single ancestry model.
+- Treat simulated ancestral populations as hypotheses requiring independent empirical validation.
 
 ## 🛠️ Technical Skills Demonstrated
 
-#### R Programming
+### Programming
 
 - R
-- RStudio
-- Script-based analytical workflows
-- Reproducible data analysis
-- Package management
+- Script-Based Analytical Workflows
+- Reproducible Data Analysis
 
-#### Statistical and Quantitative Analysis
+### Statistical & Quantitative Analysis
 
-- Principal-component coordinate analysis
-- Euclidean-distance calculations
-- Linear algebra
+- Multivariate Analysis
+- Principal Component Analysis (PCA) Interpretation
+- Euclidean-Distance Modeling
+- Linear Algebra
 - Simulation
-- Hierarchical clustering
-- Proportional affinity estimation
+- Hierarchical Clustering
+- Proportional Affinity Estimation
+- Comparative Modeling
 
-#### Data Preparation
+### Data Analysis
 
-- Data cleaning
-- Population filtering
-- Coordinate transformation
-- Data reshaping
-- Group-level aggregation
-- CSV and text-file processing
+- Exploratory Data Analysis
+- Population-Level Analysis
+- Comparative Analysis
+- Statistical Interpretation
+- Model Evaluation
 
-#### Data Visualization
+### Data Preparation
 
-- PCA scatter plots
-- Interactive bar charts
+- Data Cleaning
+- Population Filtering
+- Coordinate Transformation
+- Data Reshaping
+- Group-Level Aggregation
+- CSV & Text-File Processing
+
+### Data Visualization
+
+- PCA Scatter Plots
+- Interactive Visualizations
+- Comparative Bar Charts
 - Dendrograms
-- Population labels
-- Comparative ancestry visualizations
-- Publication-oriented graphics
+- Publication-Oriented Graphics
+- Analytical Data Storytelling
 
-#### Research Communication
+### Libraries & Software
 
-- Literature synthesis
-- Scientific interpretation
-- Long-form analytical writing
-- Methodological documentation
-- Public-facing research communication
-- Translating technical findings for non-specialist readers
+- RStudio
+- ggplot2
+- ggrepel
+- ggdendro
+- ape
+- data.table
+- tidyr
+- dplyr
+- Plotly
+- htmlwidgets
+- reshape2
 
-## 📦 R Packages
+### Research Communication
 
-```r
-library(ggplot2)       # Statistical visualization
-library(ggrepel)       # PCA label placement
-library(ggdendro)      # Dendrogram visualization
-library(ape)           # Phylogenetic analysis
-library(data.table)    # Efficient data handling
-library(tidyr)         # Data reshaping
-library(dplyr)         # Data transformation
-library(plotly)        # Interactive visualization
-library(htmlwidgets)   # HTML widget export
-library(reshape2)      # Dataset restructuring
-```
+- Literature Synthesis
+- Scientific Interpretation
+- Methodological Documentation
+- Interdisciplinary Research
+- Long-Form Analytical Writing
+- Public-Facing Scientific Communication
 
 ## 💡 What This Project Demonstrates
 
-This project demonstrates the ability to independently develop a multidisciplinary analytical case study connecting quantitative analysis with anthropological research.
+This project demonstrates the ability to independently design, execute, and communicate a computational research workflow combining multivariate analysis, simulation, statistical modeling, visualization, and interdisciplinary evidence synthesis.
 
-Specifically, it showcases proficiency in:
+Key competencies demonstrated include:
 
-- R programming
-- Multivariate data analysis
-- Population-genetics visualization
-- PCA-coordinate interpretation
-- Linear-algebraic simulation
-- Distance-based modeling
-- Hierarchical clustering
-- Interactive visualization
-- Reproducible research
-- Literature synthesis
-- Analytical storytelling
-- Scientific communication
+- Developing reproducible analytical workflows in R.
+- Applying quantitative methods to complex multidimensional datasets.
+- Designing custom computational simulations.
+- Evaluating relationships through multiple complementary analytical methods.
+- Producing interactive and publication-oriented visualizations.
+- Critically evaluating methodological assumptions and limitations.
+- Integrating quantitative results with external scientific evidence.
+- Translating complex analytical findings into accessible research communication.
 
-It also demonstrates the ability to extend an analytical project beyond code by integrating the results into a complete public-facing research article.
+Although centered on population genetics, the **analytical reasoning, computational modeling, statistical analysis, simulation, visualization, and research communication** demonstrated are broadly transferable across Data Science, Business Analytics, bioinformatics, healthcare, scientific research, and other data-intensive fields.
 
 ## 📁 Repository Structure
 
@@ -309,7 +344,7 @@ R Scripts/
 README.md
 ```
 
-## 📋 Replicating the Project
+## 🚀 Replicating the Project
 
 ### Clone the Repository
 
@@ -318,7 +353,7 @@ git clone https://github.com/Awale-Abdi/Anthromadness_ANA_post.git
 cd Anthromadness_ANA_post
 ```
 
-### Install the Required Packages
+### Install Required Packages
 
 ```r
 install.packages(c(
@@ -337,13 +372,13 @@ install.packages(c(
 
 ### Confirm the File Structure
 
-The scripts use relative file paths. Keep the datasets inside:
+Keep the source datasets inside:
 
 ```text
 Datasets/
 ```
 
-and the R scripts inside:
+and the analytical scripts inside:
 
 ```text
 R Scripts/
@@ -355,7 +390,7 @@ Generated files should be written to:
 Outputs/
 ```
 
-### Run the Scripts
+### Run the Analysis
 
 Execute the scripts in numerical order:
 
@@ -369,36 +404,14 @@ Execute the scripts in numerical order:
 7_MENA Ancestry Proportions Bar Chart Generation.R
 ```
 
-The scripts generate:
+The scripts reproduce:
 
-- Global PCA visualizations
-- Sub-Saharan–Eurasian affinity estimates
-- Simulated ANA coordinates
-- PCA projections containing ANA simulations
-- A Global25-based dendrogram
-- Interactive MENA ancestry-proportion charts
-
-## 📚 Research Sources
-
-1. **van de Loosdrecht et al. (2018)**  
-   *Pleistocene North African genomes link Near Eastern and sub-Saharan African human populations.*  
-   Science, 360(6387), 548–552.  
-   [DOI: 10.1126/science.aar8380](https://doi.org/10.1126/science.aar8380)
-
-2. **Lazaridis et al. (2018)**  
-   *Paleolithic DNA from the Caucasus reveals core of West Eurasian ancestry.*  
-   bioRxiv preprint.  
-   [DOI: 10.1101/423079](https://doi.org/10.1101/423079)
-
-3. **Lipson et al. (2020)**  
-   *Ancient West African foragers in the context of African population history.*  
-   Nature, 577, 665–670.  
-   [DOI: 10.1038/s41586-020-1929-1](https://doi.org/10.1038/s41586-020-1929-1)
-
-4. **Pickrell et al. (2014)**  
-   *Ancient west Eurasian ancestry in southern and eastern Africa.*  
-   Proceedings of the National Academy of Sciences, 111(7), 2632–2637.  
-   [DOI: 10.1073/pnas.1313787111](https://doi.org/10.1073/pnas.1313787111)
+- Global PCA visualizations.
+- African-Eurasian affinity estimates.
+- Simulated ANA coordinates.
+- PCA projections containing ANA simulations.
+- Global25-based hierarchical clustering.
+- Interactive MENA ancestry-proportion visualizations.
 
 ## 📬 Contact Me
 
