@@ -43,7 +43,7 @@ The primary goals were to:
 
 ## 🏗️ Solution Architecture
 
-### Workflow
+#### Workflow
 
 ```text
 Global25 PCA Coordinates
@@ -71,7 +71,7 @@ Interdisciplinary Research Synthesis
 Scientific Writing & Publication
 ```
 
-### Data
+#### Data
 
 - **Primary Dataset:** Eurogenes Global25 Coordinates
 - **Supporting Data:** Published ancient-DNA and population-genetics research
@@ -79,7 +79,7 @@ Scientific Writing & Publication
 - **Study Regions:** Africa, North Africa, the Middle East, and Eurasia
 - **Research Focus:** Population structure, genetic affinity, simulation, and demographic history
 
-### Data Preparation
+#### Data Preparation
 
 Prepared and structured population-level coordinate data by:
 
@@ -90,7 +90,7 @@ Prepared and structured population-level coordinate data by:
 - Reshaping data for modeling and visualization.
 - Preparing reproducible analytical inputs across multiple R workflows.
 
-### Multivariate Analysis
+#### Multivariate Analysis
 
 Used precomputed **Eurogenes Global25 PCA coordinates** to examine:
 
@@ -102,7 +102,7 @@ Used precomputed **Eurogenes Global25 PCA coordinates** to examine:
 
 The analysis uses Global25 coordinate space rather than calculating principal components directly from raw genomic data.
 
-### Distance-Based Modeling
+#### Distance-Based Modeling
 
 Estimated relative population affinities by comparing coordinates with selected African and Eurasian reference clusters.
 
@@ -116,7 +116,7 @@ The workflow incorporated:
 
 These outputs represent **coordinate-based affinity estimates**, not formal admixture proportions.
 
-### ANA Simulation
+#### ANA Simulation
 
 Developed a linear-algebraic simulation to infer hypothetical ANA coordinates from the observed displacement of Iberomaurusians relative to an Anatolian hunter-gatherer-related reference.
 
@@ -130,7 +130,7 @@ The scaling factor projects a hypothetical ancestral population along the same m
 
 A separate Natufian-related simulation was also generated to compare the reconstruction with previously published ancestry models.
 
-### Hierarchical Clustering
+#### Hierarchical Clustering
 
 Applied hierarchical clustering using:
 
@@ -141,7 +141,7 @@ Applied hierarchical clustering using:
 
 This provided an additional method for examining population similarity beyond two-dimensional PCA projections.
 
-### Interactive Visualization
+#### Interactive Visualization
 
 Developed interactive and publication-oriented visualizations using **ggplot2**, **Plotly**, and supporting R packages.
 
@@ -154,7 +154,7 @@ Outputs included:
 - Hierarchical dendrograms.
 - MENA ancestry-proportion charts.
 
-### Research Interpretation
+#### Research Interpretation
 
 Integrated computational outputs with published research in:
 
@@ -167,31 +167,31 @@ This interdisciplinary synthesis allowed quantitative results to be evaluated wi
 
 ## 📊 Analytical Insights
 
-### Iberomaurusian Positioning
+#### Iberomaurusian Positioning
 
 - Iberomaurusians occupied an intermediate position between the selected African and Eurasian reference populations within the Global25 framework.
 - Their positioning was broadly compatible with substantial affinity toward both sides of the comparison.
 - PCA positioning alone cannot establish definitive ancestry proportions.
 
-### Comparison with Published Estimates
+#### Comparison with Published Estimates
 
 - Coordinate-distance estimates broadly resembled previously published ancestry estimates for some populations.
 - This convergence suggests potential analytical value in coordinate-based exploratory modeling.
 - PCA distance should not, however, be interpreted as equivalent to formal admixture analysis.
 
-### Simulated ANA Positioning
+#### Simulated ANA Positioning
 
 - Simulated ANA coordinates clustered on the African side of the selected global PCA.
 - The simulation also displayed directional relationships toward Eurasian populations.
 - Within the assumptions of the model, this was compatible with a deeply divergent African-related population positioned near lineages related to later non-African groups.
 
-### Population Relationships
+#### Population Relationships
 
 - Exploratory simulations produced a model in which Iberomaurusians and Natufians could represent differing combinations of Anatolian hunter-gatherer-related and deeply divergent African-related ancestry.
 - The results resembled aspects of previously proposed demographic models.
 - The analysis cannot determine the true direction, timing, or exact proportions of historical ancestry exchange.
 
-### Reference-Population Effects
+#### Reference-Population Effects
 
 - Estimated ancestry patterns changed depending on the populations selected as analytical references.
 - Genetically distant reference populations can distort or misattribute deeply divergent ancestry.
@@ -223,13 +223,13 @@ Based on the analysis:
 
 ## 🛠️ Technical Skills Demonstrated
 
-### Programming
+#### Programming
 
 - R
 - Script-Based Analytical Workflows
 - Reproducible Data Analysis
 
-### Statistical & Quantitative Analysis
+#### Statistical & Quantitative Analysis
 
 - Multivariate Analysis
 - Principal Component Analysis (PCA) Interpretation
@@ -240,7 +240,7 @@ Based on the analysis:
 - Proportional Affinity Estimation
 - Comparative Modeling
 
-### Data Analysis
+#### Data Analysis
 
 - Exploratory Data Analysis
 - Population-Level Analysis
@@ -248,7 +248,7 @@ Based on the analysis:
 - Statistical Interpretation
 - Model Evaluation
 
-### Data Preparation
+#### Data Preparation
 
 - Data Cleaning
 - Population Filtering
@@ -257,7 +257,7 @@ Based on the analysis:
 - Group-Level Aggregation
 - CSV & Text-File Processing
 
-### Data Visualization
+#### Data Visualization
 
 - PCA Scatter Plots
 - Interactive Visualizations
@@ -266,7 +266,7 @@ Based on the analysis:
 - Publication-Oriented Graphics
 - Analytical Data Storytelling
 
-### Libraries & Software
+#### Libraries & Software
 
 - RStudio
 - ggplot2
@@ -280,7 +280,7 @@ Based on the analysis:
 - htmlwidgets
 - reshape2
 
-### Research Communication
+#### Research Communication
 
 - Literature Synthesis
 - Scientific Interpretation
@@ -346,14 +346,14 @@ README.md
 
 ## 🚀 Replicating the Project
 
-### Clone the Repository
+#### Clone the Repository
 
 ```bash
 git clone https://github.com/Awale-Abdi/Anthromadness_ANA_post.git
 cd Anthromadness_ANA_post
 ```
 
-### Install Required Packages
+#### Install Required Packages
 
 ```r
 install.packages(c(
@@ -370,7 +370,7 @@ install.packages(c(
 ))
 ```
 
-### Confirm the File Structure
+#### Confirm the File Structure
 
 Keep the source datasets inside:
 
@@ -390,7 +390,7 @@ Generated files should be written to:
 Outputs/
 ```
 
-### Run the Analysis
+#### Run the Analysis
 
 Execute the scripts in numerical order:
 
