@@ -2,7 +2,7 @@
 
 This project showcases an **end-to-end computational analysis workflow** developed in **R** using population-level principal-component coordinates. I developed it to demonstrate multivariate analysis, distance-based modeling, simulation, clustering, interactive visualization, and interdisciplinary research using complex scientific data.
 
-Although the project uses **population genetics and prehistoric North Africa** as its case study, the analytical techniques demonstrated, including **multivariate analysis, linear algebra, simulation, distance-based modeling, hierarchical clustering, dimensionality reduction, and interactive data visualization**, are broadly transferable across **Data Science, machine learning, bioinformatics, healthcare, finance, marketing analytics, customer segmentation, risk analysis, behavioral research, social science, engineering, environmental science, scientific computing, and other data-intensive domains involving high-dimensional or multivariate data**.
+Although the project uses **population genetics and prehistoric North Africa** as its case study, the techniques demonstrated, including **multivariate analysis, dimensionality reduction, simulation, distance-based modeling, clustering, and visualization**, are broadly transferable across **Data Science, machine learning, finance, healthcare, bioinformatics, marketing, scientific research, and other fields working with complex multivariate data**.
 
 Using **R**, Eurogenes Global25 coordinates, and published population-genetics research, I developed multiple PCA visualizations, coordinate-based affinity models, simulated population coordinates, hierarchical clustering models, and interactive comparative visualizations.
 
