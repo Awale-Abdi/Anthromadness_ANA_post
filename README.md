@@ -161,7 +161,7 @@ Integrated computational outputs with published research in:
 - Population genetics
 - Ancient DNA
 - Archaeology
-- Biological anthropology
+- Population history
 
 This interdisciplinary synthesis allowed quantitative results to be evaluated within a broader scientific and historical framework.
 
@@ -170,7 +170,7 @@ This interdisciplinary synthesis allowed quantitative results to be evaluated wi
 #### Iberomaurusian Positioning
 
 - Iberomaurusians occupied an intermediate position between the selected African and Eurasian reference populations within the Global25 framework.
-- Their positioning was broadly compatible with substantial affinity toward both sides of the comparison.
+- Their positioning was broadly compatible with likely being an intermixture between both sides.
 - PCA positioning alone cannot establish definitive ancestry proportions.
 
 #### Comparison with Published Estimates
@@ -214,7 +214,7 @@ The outputs should therefore be interpreted as **hypothesis-generating computati
 
 Based on the analysis:
 
-- Validate exploratory coordinate-based models using formal population-genetic methods where appropriate.
+- Validate exploratory coordinate-based models using formal population-genetic methods and raw genotype data.
 - Test alternative reference populations to evaluate model sensitivity.
 - Incorporate newly published ancient-DNA samples as they become available.
 - Compare PCA-based simulations with independent genetic and archaeological evidence.
@@ -250,7 +250,7 @@ Based on the analysis:
 
 #### Data Preparation
 
-- Data Cleaning
+- Data Preparation 
 - Population Filtering
 - Coordinate Transformation
 - Data Reshaping
